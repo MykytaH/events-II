@@ -3,7 +3,6 @@
 * {
   box-sizing: border-box;
   text-decoration: none;
-  transition: 300ms;
   outline: none;
 }
 
@@ -56,10 +55,12 @@ ul {
   font-size: 1.5rem;
   color: #fff;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  transition: 150ms;
 }
 
 #header-title h1:hover {
   color: #e30d7c;
+  transition: 150ms;
 }
 
 #main-header nav {
@@ -351,12 +352,14 @@ ul {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
   font-weight: bold;
   text-decoration: none;
+  transition: 150ms;
 }
 
 .button:hover {
   background-color: #e30d5b;
   color: #fff;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  transition: 150ms;
 }
 
 .button-text {
@@ -369,13 +372,16 @@ ul {
   border-radius: 4px;
   font-weight: bold;
   text-decoration: none;
+  transition: 150ms;
 }
 
 .button-text:hover {
   color: #7c184c;
+  transition: 150ms;
 }
 
 .error-block {
+  width: 90%;
   background-color: #f0d9e5;
   margin: 1rem 0;
   padding: 1rem;
